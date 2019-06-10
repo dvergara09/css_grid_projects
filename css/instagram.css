@@ -48,6 +48,67 @@
 .instagram-info-texto span i{
     margin-right: 5px;
 }
+
+.instagram-profile{
+    padding: 60px 20px 20px 60px;
+    max-width: 935px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-profile{
+    margin-right: 30px;
+    min-width: 150px;
+    width: 30%;
+    display: flex;
+    justify-content:center;
+}
+.img-photo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+h1{
+    margin:0;
+}
+
+.name-area{
+    display:flex;
+    height: 40px;
+    align-items: center;
+}
+
+.following-buttons{
+    margin-left: 20px;
+}
+
+.numbers-area>ul{
+    padding: 0;
+}
+.numbers-area>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    padding: 0;
+    cursor: pointer;
+}
+.follow-button{
+    margin-right: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: #3498DB;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.description-area{
+    line-height: 1.5;
+}
+
 @media screen and (max-width: 768px){
     .instagram-layout{
         grid-gap: 3px;
