@@ -1,4 +1,5 @@
-.container{
+.pinterest-container{
+    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
     grid-gap: 5px;
