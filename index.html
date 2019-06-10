@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Instagram</title>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/instagram.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <!-- SECTION INSTAGRAM -->
+
+    <header class="container">
+        <!-- Barra de navegacion -->
+        <nav class="navbar">
+            <h1 class="navbar-title">CSS Grid</h1>
+            <ul class="navbar-list">
+                <li class="element"><a href="#" id="link-instagram" class="link">Instagram</a></li>
+                <li class="element"><a href="#" id="link-pinterest" class="link">Pinterest</a></li>
+                <li class="element"><a href="#" id="link-platzi"  class="link">Platzi</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container">
-        <div class="header">
+        <!-- SECTION INSTAGRAM -->
+
+        <!-- <div class="header">
             <div class="img-profile">
                 <img src="img/icon.svg" alt="" class="img-photo" />
             </div>
@@ -38,76 +54,89 @@
                     Colombia (It's Colombia not Columbia!)
                 </div>
             </div>
-        </div>
-        <section class="post-list">
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span><i class="fas fa-comment"></i></span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu2.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu3.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu2.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
-            <a href="" class="post">
-                <figure class="post-image">
-                    <img src="img/compu3.jpg" alt="" />
-                </figure>
-                <span class="post-overlay">
-                    <p>
-                        <span class="post-likes">150</span>
-                        <span class="post-comments">10</span>
-                    </p>
-                </span>
-            </a>
+        </div> -->
+        
+        <section id="instagram">
+            <div class="profile">
+
+            </div>
+            <div class="instagram-layout">
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="material-icons">favorite</i>150</span>
+                            <span><i class="material-icons">mode_comment</i>10</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu2.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="material-icons">favorite</i>150</span>
+                            <span><i class="material-icons">mode_comment</i>10</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu3.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="material-icons">favorite</i>150</span>
+                            <span><i class="material-icons">mode_comment</i>10</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="material-icons">favorite</i>150</span>
+                            <span><i class="material-icons">mode_comment</i>10</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu2.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="fas fa-heart"></i> 150</span>
+                            <span>10</span>
+                        </p>
+                    </div>
+                </a>
+                <a href="" class="instagram-link-container">
+                    <figure class="instagram-container-image">
+                        <img src="img/compu3.jpg" alt="">
+                    </figure>
+                    <div class="instagram-info">
+                        <p class="instagram-info-texto">
+                            <span><i class="material-icons">favorite</i>150</span>
+                            <span><i class="material-icons">mode_comment</i>10</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
         </section>
+
+        <!-- SECTION PINTEREST -->
+        <!-- <section id="pinterest"></section> -->
+
+        <!-- SECTION PLATZI -->
+        <!-- <section id="platzi"></section> -->
+
+        
     </div>
 </body>
 
