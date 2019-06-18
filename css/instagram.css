@@ -52,14 +52,15 @@
 .instagram-profile{
     padding: 60px 20px 20px 60px;
     max-width: 935px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
 
 .img-profile{
-    margin-right: 30px;
+    /* margin-right: 30px; */
     min-width: 150px;
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     justify-content:center;
 }
@@ -105,6 +106,9 @@ h1{
     cursor: pointer;
 }
 
+
+
+
 .description-area{
     line-height: 1.5;
 }
@@ -112,5 +116,20 @@ h1{
 @media screen and (max-width: 768px){
     .instagram-layout{
         grid-gap: 3px;
+    }
+
+    .img-photo{
+        width: 77px;
+        height: 77px;
+    }
+
+    .name-area{
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .instagram-profile{
+        padding: 0;
+        margin-top: 10px;
     }
 }
