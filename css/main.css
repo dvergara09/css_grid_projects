@@ -62,12 +62,13 @@ header {
     background-color: #343a40;
     
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 3fr;
     align-items: center;
 }
 .navbar-title{
     color: white;
     margin: 0 0 0 10px;
+    align-items: initial;
 }
 .navbar-list{
     height: 100%;
